@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 4 of the app updated by Omar.' + '\n';
+    response = 'This is version 5 of the app updated by Omar after webhook configuration.' + '\n';
 
     //send the response to the client
     res.send(response);
